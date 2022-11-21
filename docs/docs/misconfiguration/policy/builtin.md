@@ -30,9 +30,9 @@ If Trivy is unable to pull down newer policies, it will use the embedded set of 
 ## Update Interval
 Trivy checks for updates to OPA bundle on GHCR every 24 hours and pulls it if there are any updates.
 
-[rego]: https://www.openpolicyagent.org/docs/latest/policy-language/
+[rego]: https://www.openpolicyagent.org/docs/latest/policy-language
 [defsec]: https://github.com/aquasecurity/defsec
 [kubernetes]: https://github.com/aquasecurity/defsec/tree/master/internal/rules/kubernetes
-[kubernetes]: https://github.com/aquasecurity/defsec/tree/master/internal/rules/rbac
 [docker]: https://github.com/aquasecurity/defsec/tree/master/internal/rules/docker
 [ghcr]: https://github.com/aquasecurity/defsec/pkgs/container/defsec
+[rbac]: https://github.com/aquasecurity/defsec/tree/master/internal/rules/policies/rbac
